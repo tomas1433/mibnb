@@ -335,6 +335,7 @@ clear: both;
 }
 
 .priceserv{
+  font: 700 1.0em 'Montserrat', sans-serif !important;
   color: #5cb85c;
   
 }
