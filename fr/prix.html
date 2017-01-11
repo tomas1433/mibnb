@@ -1,11 +1,11 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>MiBnb - Gestion alquileres vacacionales Airbnb en Malaga</title>
+<title>MiBnb -Prix & services - costa del sol - Malaga</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/png" href="favicon.ico">
-<meta description="Precio y servicio de MiBNB - Ingresos mensuales alquilando tu vivienda por Airbnb sin estres">
+  <link rel="shortcut icon" type="image/png" href="../favicon.ico">
+<meta description="Profitez du revenu mensuel en louant votre maison sur Airbnb sans stress, nous ne prenons pas soin de tout">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -26,8 +26,8 @@
 
 </script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/animation.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="https://font.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
 </head>
@@ -35,7 +35,7 @@
  <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-brand">
-    MiBnb.es - Conserje Airbnb - Costa del Sol
+    MiBnb.es - Consciergerie Airbnb - Costa del Sol
   </a>
 
   <!-- Right Navigation -->
@@ -47,12 +47,13 @@
       <div class="dropdown">
         <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="/fr">FR <img src="fr.png" class="flag"></a></li>
-          <li><a href="/en/en">EN <img src="uk.png" class="flag"></a></li>
-          <li><a href="/">Inicio</a></li>
+          <li><a href="/en">EN <img src="../en.png" class="flag"></a></li>
+          <li><a href="/">ES <img src="../es.png" class="flag"></a></li>
+          <li><a href="/fr/fr">Accueil</a></li>
         </ul>
       </div>
     </div>
+
 
     <!-- Button (call-to-action) -->
 
@@ -63,23 +64,23 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-          <li><a href="/fr">FR <img src="fr.png" class="flag"></a></li>
-          <li><a href="/en/en">EN <img src="uk.png" class="flag"></a></li>
-          <li><a href="/precio">Precios & servicios</a></li>
+          <li><a href="/fr">FR <img src="../fr.png" class="flag"></a></li>
+           <li><a href="/">ES <img src="../es.png" class="flag"></a></li>
+          <li><a href="/en/en">Home</a></li>
       </ul>
     </div>
   </div>
 </div>
  
 
-          <div class="banner col-xs-12 col-sm-12 col-md-12 main" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('sea.jpg'); margin-bottom: 40px">
+          <div class="banner col-xs-12 col-sm-12 col-md-12 main" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('../sea.jpg'); margin-bottom: 40px">
             <div class="banner-content">
               <h1>MiBnB <i class="fa fa-map-marker fa-2x" style="color: #5cb85c" aria-hidden="true"></i></h1>
-              <h2>Servicios y precios</h2>
-              <h4>Gestionamos tu alquiler vacacional !</h4>
+              <h2>Prix & services</h2>
+              <h4>Nous gérons votre location Airbnb à Malaga</h4></h4>
 
               <button type="button" class="btn btn-success btn-md " data-toggle="modal" data-target="#myModal">
-                             Empieza ya !
+                             Contactez-nous !
                               </button></h6>
 
                               <!-- Modal -->
@@ -88,17 +89,17 @@
  <div class="modal-content">
                                     <div class="modal-header">
                                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                      <h4 class="modal-title" id="myModalLabel"><strong>Hablemos !</strong></h4>
-                                      <h5 class="modal-title">Mandame un mensaje </br> o por telefono al +34 611-40-96-23 </h5>
+                                      <h4 class="modal-title" id="myModalLabel"><strong>Contactez-nous!</strong></h4>
+                                      <h5 class="modal-title">Envoyez-nous un mail !</h5>
                                     </div>
                                         <div class="modal-body text-center">
                                           <form  id="contact-form" action="http://formspree.io/t.tourlet@gmail.com" method="POST">
-                                           <input class="form-control" type="text"  name="name" placeholder="Tu nombre/ empresa">
-                                            <input class="form-control" type="email" name="_replyto" placeholder="Tu email">
-                                              <textarea class="form-control" name="message" placeholder="Mensaje"></textarea>
+                                           <input class="form-control" type="text"  name="name" placeholder="Votre nom/ entreprise">
+                                            <input class="form-control" type="email" name="_replyto" placeholder="Votre message">
+                                              <textarea class="form-control" name="message" placeholder="Decrivez-nous vos besoins"></textarea>
                                              <input type="text" name="_gotcha" style="display:none" />
-                                            <button type="submit" value="Send" class="btn btn-primary">Enviar</button>
-                                            <input type="hidden" name="_next" value="/" />
+                                            <button type="submit" value="Send" class="btn btn-primary">Envoyer</button>
+                                            <input type="hidden" name="_next" value="/fr/prix" />
                                         </form>
                                      <script>
                         var contactform =  document.getElementById('contactform');
@@ -122,22 +123,22 @@
                           <div class="row">
       <!-- start features service top -->
   <div class="col-md-8 col-md-push-2 ">
-                    <center><p class="section-title" style="margin-bottom: 30px">Tu eliges</p></center>
+                    <center><p class="section-title" style="margin-bottom: 30px">Nous faisons du sur mesure</p></p></center>
     
                 </div>
                           <div class="col-sm-12 col-md-12 col-lg-6 shadow">
-                              <center><p class="titleservice">Gestion integral</p></center>
+                              <center><p class="titleservice">Gestion complète</p></center>
                           <center><i class="fa fa-line-chart fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
         
-                            <p class="texteservice">Gestionamos al 100% tu alquiler vacacional.</p></center>
+                            <p class="texteservice">Nous gérons votre location de a à z</p></center>
                             <ul>
-                              <li>Gestion de anuncio y contacto con los viajeros</li>
+                              <li>Gestion de l'annonce et contact avec les voyageurs</li>
                               <li>Check-in/ Check-out </li>
-                              <li>Limpieza y lavanderia integral de tu vivienda</li>
-                              <li>Recibes un ingreso cada mes</li>
+                              <li>Nettoyage et gestion du linge</li>
+                              <li>Vous obtenez votre revenu chaque mois</li>
                             </ul>
                             
-                            <center><p class="priceserv">Donde ?</p></center>
+                            <center><p class="priceserv">Ou ?</p></center>
                             <ul>
                               <li>Malaga </li>
                               <li>Nerja</li>
@@ -145,96 +146,96 @@
                               <li>Marbella</li>
                             </ul>
                             
-                            <center><p class="priceserv">Cuanto cuesta ?</p></center>
+                            <center><p class="priceserv">Combien ça coûte ?</p></center>
                             <ul>
-                              <li>No hay gastos fijos ni de entrada</li>
-                              <li>Desde 20% de los ingresos totales + IVA</li>
+                              <li>Il n'y a pas de coûts fixes ou d'entrée</li>
+                              <li>Dès 20% du montant des locations + TVA</li>
                             </ul>
                             
-                               <center><p class="priceserv">Para quien ?</p></center>
+                               <center><p class="priceserv">Pour qui ?</p></center>
                             <ul>
-                              <li>Quieres investir en Malaga</li>
-                              <li>Tienes una vivienda en Malaga pero no vives alli</li>
-                              <li>Te vas durante un largo periodo</li>
+                              <li>Vous souhaitez investir à Malaga</li>
+                              <li>Vous avez une maison à Malaga mais vous ne vivez pas ici</li>
+                              <li>Vous partez en voyage</li>
                             </ul>
                             
-                             <center><p class="priceserv">Quiero empezar, comor hacer ?</p></center>
+                             <center><p class="priceserv">Je veux commencer, que dois-je faire ?</p></center>
                             <ul>
-                              <li>Envianos un mensaje</li>
-                              <li>Describenos tu casa y los ingresos deseados</li>
-                              <li>Si validamos tu solicitud, organizaremos una visita de tu vivienda</li>
+                              <li>Envoyez-nous un mail</li>
+                              <li>Décrivez-nous votre maison et votre revenu souhaité</li>
+                              <li>Si nous validons votre demande, nous organiserons une visite de votre domicile</li>
                             </ul>
                           </div>
                           
           
                           
                       <div class="col-sm-12 col-md-12 col-lg-6 shadow" style="background-color: f7f7f7">
-                          <center><p class="titleservice">A tu ritmo</p></center>
+                          <center><p class="titleservice">Gestion à la demande</p></center>
                           <center><i class="fa fa-clock-o fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
         
-                            <p class="texteservice">Te ayudamos puntualmente a gestionar tu vivienda</p></center>
+                            <p class="texteservice">Nous vous aidons à gérer vos locations</p></center>
                             <ul>
-                              <li><strong class="titleserv">Llegada de los viajeros</strong> - <strong class="priceserv">Desde 18 euros</strong></li>
-                              <p>Incluye: Comunication con tus huespedes, bienvenida profesional, entrafe de llaves, consejos sobre los mejores lugares de la zona.</p>
+                              <li><strong class="titleserv">Arrivée des voyageurs</strong> - <strong class="priceserv">A partir de 18 euros</strong></li>
+                              <p>Comprend: Communication avec vos invités, accueil professionnel, clés, conseils sur les meilleurs endroits de la région.</p>
                               
-                              <li><strong class="titleserv">Salida de los viajeros</strong> - <strong class="priceserv">Desde 15 euros</strong></li>
-                              <p>Incluye: Verification del estado del alojamiento, recogida de las llaves, despedida calida de los viajeros, Feedback de tu alojamiento.</p>
+                              <li><strong class="titleserv">Départ des voyageurs</strong> - <strong class="priceserv">A partir de 15 euros</strong></li>
+                              <p>Comprend: Vérification de l'état de la propriété, collection des clés, accueil chaleureux des voyageurs, Feedback de votre propriété.</p>
                               
-                              <li><strong class="titleserv">Limpieza</strong> - <strong class="priceserv">Desde 18 euros</strong></li>
-                              <p>Incluye: Eliminar el polvo e todas las superficis, aspirar todos los suelos y alfombras, limpieza de los suelos, vaciar basuras.<strong>Atencion: Es necesario dejar en su vivienda los producto para la limpiez: Aspiradora, escoba, fregona - Solo utilizamos tus productos.</strong></p>
+                              <li><strong class="titleserv">Nettoyage</strong> - <strong class="priceserv">A partir de 18 euros</strong></li>
+                              <p>Comprend: Retirez la poussière de toutes les surfaces, nettayez les sols et tapis, nettoyez le sol, videz les ordures.<strong>Attention: Il est nécessaire de laisser le produit pour le nettoyage: Aspirateur, balai, serpillière - Nous n'utilisons que vos produits.</strong></p>
                               
-                              <li><strong class="titleserv">Lavanderia</strong> - <strong class="priceserv">Desde 18 euros</strong></li>
-                              <p>Incluye: Colecion de lavanderia (Dormitorios y baños), lavar, secar, doblar. <strong>Atencion: Es necesario dejar uno o dos juegos adicionales en su vivienda.</strong></p>
+                              <li><strong class="titleserv">Gestion du lingue</strong> - <strong class="priceserv">A partir de 18 euros</strong></li>
+                              <p>Comprend: Collecte de linge (chambres et salles de bains), lavage, séchage, pliage.<strong>Attention: Il est nécessaire de laisser un ou deux jeux supplémentaires dans votre maison.</strong></p>
                               
-                              <li><strong class="titleserv">Creacion anuncio Airbnb con fotos profesional</strong> - <strong class="priceserv">80 euros</strong></li>
-                              <p>Incluye: Creacion de anuncio, consejos sobre precios, fotos profesionales de toda tu vivienda.</p>
+                              <li><strong class="titleserv">Creation d'annonce Airbnb avec photos professionnelles</strong> - <strong class="priceserv">80 euros</strong></li>
+                              <p>Comprend: Création d'annonces, conseils sur les prix, photos professionnelles de toute votre maison.</p>
                               
-                              <li><strong class="priceserv">Condiciones</strong></li>
+                              <li><strong class="priceserv">Conditions</strong></li>
                               <ul>
-                              <li>Los precios indicados son validos para Malaga capital para solicitudes hechas con 72h de antelacion</li>
-                              <li>Detalles y precios en: Nerja, Marbella, Fuengirola, contacten con nosotros.</li>
+                              <li>Les prix indiqués sont valables pour le capital de Malaga pour les demandes faites avec 72h à l'avance</li>
+                              <li>Détails et tarifs pour: Nerja, Marbella, Fuengirola, contactez-nous.</li>
                               </ul>
                             </ul>
                   </div>
             </div>
       <!-- end features service top -->
-  <div class="text-center" style="background-color: #F7F7F7; padding: 60px; margin-top: 20px">
-    <p class="h4 title-block-small margin-bottom-20 color-dark">Deja que MiBnb se ocupe de tu casa</p>
+<div class="text-center" style="background-color: #F7F7F7; padding: 60px; margin-top: 20px">
+    <p class="h4 title-block-small margin-bottom-20 color-dark">Laissez Mibnb gérer votre propriété</p>
     
-   <button type="button" class="btn btn-success btn-md"  data-target="#myModal" data-toggle="modal">EMPIEZA YA</button>
+   <button type="button" class="btn btn-success btn-md"  data-target="#myModal" data-toggle="modal">Go !</button></button>
 
   </div>
 <!-- end banner start -->  
 
-            <div class="container" style="padding: 60px 0">
+                      <div class="container" style="padding: 60px 0">
                 <div class="row"> 
                 
                         <div class="col-sm-3 col-md-3">
                             <center><i class="fa fa-smile-o fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
-                          </br><strong>98,9%</strong></br><p class="kpi-number">De los clientes MiBnb<br>satisfechos</p></center>
+                          </br><strong>98,9%</strong></br><p class="kpi-number">des clients Mibnb<br>sont satisfait de nos services</p></center>
                         </div>
                         
                         <div class="col-sm-3 col-md-3">
                             <center><i class="fa fa-female fa-5x" style="color: #5cb85c" aria-hidden="true"></i><i class="fa fa-male fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
                             
-                              </br><strong>+500</strong></br><p class="kpi-number">viajeros saludados</p></center>
+                              </br><strong>+500</strong></br><p class="kpi-number">voyageurs dejà accueillis</p></center>
                         </div>
                         
                         <div class="col-sm-3 col-md-3">
                             <center><i class="fa fa-star fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
                             
-                              </br><strong>4,9/5</strong></br><p class="kpi-number"de nota media<br>para nuestros anuncios</p></center>
+                              </br><strong>4,9/5</strong></br><p class="kpi-number">de note en moyenne<br>pour nos annonces</p></center>
                         </div>
                         
                         <div class="col-sm-3 col-md-3">
                             <center><i class="fa fa-eur fa-5x" style="color: #5cb85c" aria-hidden="true"></i>
                             
-                              </br><strong>1 430,16€</strong></br><p class="kpi-number">ganados en media al mes<br> por nuestros anfitriones*</p></center>
+                              </br><strong>1 430,16€</strong></br><p class="kpi-number">/ mois gagné en moyenne<br> par nos clients*</p></center>
                         </div>
                     </div>
                     
                     <div class="col-md-12">
-                        <center>*para un apartamento en el centro historico de Malaga</center>
+                        <center>*Pour un appartement de 1 chambre à Malaga centre ville</center>
                     </div>
                         
                   </div>     
@@ -248,7 +249,7 @@
 <section style="background:#fff; padding: 60px 0">
   <div class="container">
     <p class="text-center">
-      En <strong style="color: #5cb85c">MiBnb</strong> te ayudamos a alquilar tu vivienda a traves de : <strong style="color: #5cb85c">Airbnb, Booking.com, <a href="https://www.flatpooling.es" style="color: #5cb85c">FlatPooling.com</a>, Wimdu</strong>...   </p>
+      En <strong style="color: #5cb85c">MiBnb</strong> vous aide à gérer votre propriété sur:  <strong style="color: #5cb85c">Airbnb, Booking.com, <a href="https://www.flatpooling.com/en" style="color: #5cb85c">FlatPooling.com</a>, Wimdu</strong>...   </p>
   </div>
 </section>
 
