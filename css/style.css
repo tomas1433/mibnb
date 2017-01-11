@@ -339,3 +339,7 @@ clear: both;
   color: #5cb85c;
   
 }
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 4px 0px
+}
