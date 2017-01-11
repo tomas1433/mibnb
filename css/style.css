@@ -319,5 +319,15 @@ clear: both;
 }
 
 .section-title{
-  font: 700 2.4em 'Montserrat', sans-serif !important;
+  font: 700 2.0em 'Montserrat', sans-serif !important;
+}
+
+.titleservice{
+  font: 700 1.4em 'Montserrat', sans-serif !important;
+  padding: 20px 0;
+}
+
+.texteservice{
+  font: 700 1.0em 'Montserrat', sans-serif !important;
+  padding: 15px 0;
 }
